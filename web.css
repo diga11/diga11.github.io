@@ -1,3 +1,23 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    background-image: url("icons/Icon-192.png");
+    background-repeat: no-repeat;
+    background-size: 200px 150px;
+    background-position: center;
+    bottom: 15px;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 99%;
+    width: 99%;
+}
+
 .sk-cube-grid {
     width: 40px;
     height: 40px;
@@ -7,7 +27,7 @@
   .sk-cube-grid .sk-cube {
     width: 33%;
     height: 33%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     float: left;
     -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
             animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
